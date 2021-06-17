@@ -1,0 +1,60 @@
+/* Header */
+.home header{
+    background-color: var(--color-amarillo);
+}
+.home .logo-buscar{
+    margin: 0 0 15px 15px;
+}
+.home header p{
+    text-align: center;
+    font-size: var(--font-size-texto);
+}
+/* nav-bar */
+.home .nav-bar a{
+    color: black;
+    font-size: var(--font-size-texto);
+}
+.home .nav-bar ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home .burger-menu{
+    background: var(--color-celeste);
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 17px;
+    border: 1px solid var(--color-celeste);
+    color: white;
+    border-radius: 5px;
+}
+/* main */
+.home main article{
+    text-align:center;
+}
+.home main .titular{
+    font-size: var(--font-size-titular);
+}
+.home main .precio{
+    font-size: var(--font-size-precio);
+}
+.home main .descuentos{
+    font-size: var(--font-size-descuentos);
+}
+.home main .descripciones{
+    font-size: var(--font-size-descripciones);
+}
+/* footer */
+.home footer section{
+    text-align: center;
+    font-size: var(--font-size-texto);
+    margin: 30px 20px 30px 20px;
+}
+.home .icon{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.home footer .copyright{
+    text-align: left;
+    margin: 30px 0 10px 10px;
+}

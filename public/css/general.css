@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+:root{
+    --color-amarillo: #EAC926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-gris-oscuro:#666;
+    --color-gris-claro:#ebebeb;
+    --color-verde:#39b54a;
+    --font-size-texto: 12px;
+    --font-size-titular: 24px;
+    --font-size-precio: 18px;
+    --font-size-descuentos: 16px;
+    --font-size-descripciones: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.fa-search:hover{
+    color: white;
+}
+.fa-address-card:hover{
+    color: white;
+}
+.fa-sign-in-alt:hover{
+    color: white;
+}
+.fa-shopping-basket:hover{
+    color: white;
+}
