@@ -1,56 +1,68 @@
+.home{
+    background-color: var(--gris-claro);
+}
+
 /* Header */
+
 .home header{
-    background-color: var(--color-amarillo);
+    background-color: var(--amarillo);
 }
 .home .logo-buscar{
     margin: 0 0 15px 15px;
 }
 .home header p{
     text-align: center;
-    font-size: var(--font-size-texto);
+    font-size: 12px;
 }
 /* nav-bar */
 .home .nav-bar a{
     color: black;
-    font-size: var(--font-size-texto);
+    font-size: 12px;
 }
 .home .nav-bar ul{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .home .burger-menu{
-    background: var(--color-celeste);
-    text-align: center;
+    margin: 0 42% 20px;
+    display: inline-block;
+    background: var(--celeste);
     font-size: 20px;
-    padding: 8px 17px;
-    border: 1px solid var(--color-celeste);
+    padding: 8px 10px;
+    border: 1px solid var(--celeste);
     color: white;
     border-radius: 5px;
 }
 /* main */
 .home main article{
+    margin: 2%;
     text-align:center;
 }
+.home main .img{
+    width: 100%;
+}
 .home main .titular{
-    font-size: var(--font-size-titular);
+    font-size: 24px;
 }
 .home main .precio{
-    font-size: var(--font-size-precio);
+    font-size: 18px;
 }
-.home main .descuentos{
-    font-size: var(--font-size-descuentos);
+.home main .descuentos, .descripciones{
+    font-size: 16px;
 }
-.home main .descripciones{
-    font-size: var(--font-size-descripciones);
-}
+
 /* footer */
+.home footer{
+    margin: 2%;
+    background-color: white;
+}
 .home footer section{
     text-align: center;
-    font-size: var(--font-size-texto);
+    font-size: 12px;
     margin: 30px 20px 30px 20px;
 }
 .home .icon{
-    color: var(--color-celeste);
+    color: var(--celeste);
     font-size: 2em;
     margin-bottom: 10px;
 }

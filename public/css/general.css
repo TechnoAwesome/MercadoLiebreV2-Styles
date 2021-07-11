@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 :root{
-    --color-amarillo: #EAC926;
-    --color-azul:#03264C;
-    --color-celeste:#1259c3;
-    --color-gris-oscuro:#666;
-    --color-gris-claro:#ebebeb;
-    --color-verde:#39b54a;
-    --font-size-texto: 12px;
-    --font-size-titular: 24px;
-    --font-size-precio: 18px;
-    --font-size-descuentos: 16px;
-    --font-size-descripciones: 16px;
+    --amarillo: #EAC926;
+    --azul:#03264C;
+    --celeste:#1259c3;
+    --gris-oscuro:#666;
+    --gris-claro:#ebebeb;
+    --verde:#39b54a;
 }
 *{
     margin: 0;
